@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Register from "./Component/Register";
+import Register from "./Component/Register/Register";
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
       <h1>Register Auth</h1>
 
       <BrowserRouter>
-      
         <Routes>
           <Route path="/" element={<Register />} />
         </Routes>
