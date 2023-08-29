@@ -1,0 +1,90 @@
+/* Form container */
+section {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Valid and invalid input indicators */
+.valid .fa-check,
+.invalid .fa-times {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.valid .fa-check {
+  color: #4caf50;
+}
+
+.invalid .fa-times {
+  color: #f44336;
+}
+
+/* Error message */
+.errmsg {
+  color: #f44336;
+  margin-top: 6px;
+}
+
+/* Instructions */
+.instructions {
+  font-size: 14px;
+  margin-top: 6px;
+  color: #888;
+}
+
+/* Sign Up button */
+#sign-up-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#sign-up-button:hover {
+  background-color: #45a049;
+}
+
+/* Offscreen accessibility */
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
